@@ -37,7 +37,7 @@ try:
     if len(UPSTREAM_REPO) == 0:
        raise TypeError
 except TypeError:
-    UPSTREAM_REPO = "https://github.com/anasty17/mirror-leech-telegram-bot"
+    UPSTREAM_REPO = "https://github.com/badboy7310/GDTOT"
 
 if os.path.exists('.git'):
     subprocess.run(["rm", "-rf", ".git"])
